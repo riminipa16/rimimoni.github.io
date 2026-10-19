@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | CSE Graduate Portfolio</title>
+  <meta name="description" content="Academic portfolio of Your Name, a Computer Science & Engineering graduate with interests in AI, software engineering and research." />
+  <meta name="theme-color" content="#2563eb" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">YN<span>.</span></a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle dark mode">🌙</button>
+        <button id="menuToggle" class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Your Full Name</h1>
+          <h2>CSE Graduate · <span id="typed"></span><span class="cursor">|</span></h2>
+          <p class="hero-desc">
+            B.Sc. in Computer Science & Engineering with a strong interest in research and
+            problem solving. I am seeking opportunities to pursue a master's degree and
+            contribute to impactful work in computing.
+          </p>
+          <div class="hero-buttons">
+            <a href="cv/Your-Name-CV.pdf" class="btn btn-primary" download>⬇ Download CV</a>
+            <a href="#contact" class="btn btn-outline">Get in touch</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>
+            <a href="https://orcid.org/" target="_blank" rel="noopener">ORCID</a>
+          </div>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img src="assets/profile.jpg" alt="Portrait of Your Name" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+            <div class="photo-fallback">YN</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I recently completed my Bachelor's degree in Computer Science & Engineering at
+              <strong>Your University</strong>, Bangladesh. My academic journey has focused on
+              <strong>[your area, e.g. machine learning, data science, software engineering]</strong>,
+              and I enjoy turning complex problems into practical, well-engineered solutions.
+            </p>
+            <p>
+              I am motivated to continue my studies at the master's level in an international,
+              multicultural environment where I can deepen my knowledge, collaborate with
+              researchers from around the world, and grow as an engineer and a person.
+            </p>
+            <h3>Research Interests</h3>
+            <div class="tags">
+              <span>Machine Learning</span>
+              <span>Natural Language Processing</span>
+              <span>Computer Vision</span>
+              <span>Data Science</span>
+              <span>Software Engineering</span>
+            </div>
+          </div>
+          <div class="stats reveal">
+            <div class="stat"><span class="num" data-count="3.75" data-decimals="2">0</span><span class="label">CGPA (out of 4.00)</span></div>
+            <div class="stat"><span class="num" data-count="12">0</span><span class="label">Projects</span></div>
+            <div class="stat"><span class="num" data-count="2">0</span><span class="label">Publications</span></div>
+            <div class="stat"><span class="num" data-count="1">0</span><span class="label">Internships</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section alt" id="education">
+      <div class="container">
+        <h2 class="section-title reveal">Education</h2>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="date">2020 – 2024</span>
+            <h3>B.Sc. in Computer Science & Engineering</h3>
+            <p class="muted">Your University, Dhaka, Bangladesh</p>
+            <ul>
+              <li>CGPA: <strong>3.75 / 4.00</strong> (First Class / Top X% of the batch)</li>
+              <li>Relevant courses: Data Structures, Algorithms, Artificial Intelligence, Machine Learning, Database Systems, Operating Systems, Computer Networks</li>
+              <li>Thesis: <em>Title of your thesis</em> (see Research section)</li>
+            </ul>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="date">2017 – 2019</span>
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <p class="muted">Your College, Bangladesh</p>
+            <ul><li>GPA: <strong>5.00 / 5.00</strong></li></ul>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="date">2015 – 2017</span>
+            <h3>Secondary School Certificate (SSC)</h3>
+            <p class="muted">Your School, Bangladesh</p>
+            <ul><li>GPA: <strong>5.00 / 5.00</strong></li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RESEARCH ============ -->
+    <section class="section" id="research">
+      <div class="container">
+        <h2 class="section-title reveal">Research & Publications</h2>
+
+        <div class="card reveal">
+          <span class="badge">Undergraduate Thesis</span>
+          <h3>Title of Your Thesis</h3>
+          <p class="muted">Supervisor: Prof. / Dr. Supervisor Name · Your University · 2024</p>
+          <p>
+            A short summary (3–4 lines): the problem you addressed, the method you used,
+            the dataset or setup, and the main result (e.g. "achieved 94% accuracy, improving
+            on the baseline by 6%").
+          </p>
+          <div class="card-links">
+            <a href="#" target="_blank" rel="noopener">📄 Read paper</a>
+            <a href="#" target="_blank" rel="noopener">💻 Code</a>
+          </div>
+        </div>
+
+        <h3 class="sub-title reveal">Publications</h3>
+        <ol class="pub-list">
+          <li class="reveal">
+            <strong>Your Name</strong>, Co-author A, Co-author B.
+            "<em>Title of the paper</em>."
+            <span class="muted">Journal / Conference Name, Year.</span>
+            <a href="#" target="_blank" rel="noopener">[DOI]</a>
+          </li>
+          <li class="reveal">
+            Co-author A, <strong>Your Name</strong>.
+            "<em>Title of the second paper</em>."
+            <span class="muted">Conference Name, Year. (Under review)</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <h2 class="section-title reveal">Projects</h2>
+        <div class="filters reveal" id="filters">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="ai">AI / ML</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="system">Systems</button>
+        </div>
+
+        <div class="grid" id="projectGrid">
+          <article class="card project reveal" data-category="ai">
+            <h3>Project One</h3>
+            <p>One or two sentences on what it does, the problem it solves and the result.</p>
+            <div class="tags small"><span>Python</span><span>PyTorch</span><span>NLP</span></div>
+            <div class="card-links">
+              <a href="https://github.com/yourusername/project-one" target="_blank" rel="noopener">GitHub</a>
+              <a href="#" target="_blank" rel="noopener">Demo</a>
+            </div>
+          </article>
+
+          <article class="card project reveal" data-category="web">
+            <h3>Project Two</h3>
+            <p>Describe your full-stack or web project and what makes it useful.</p>
+            <div class="tags small"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+            <div class="card-links">
+              <a href="https://github.com/yourusername/project-two" target="_blank" rel="noopener">GitHub</a>
+              <a href="#" target="_blank" rel="noopener">Live</a>
+            </div>
+          </article>
+
+          <article class="card project reveal" data-category="system">
+            <h3>Project Three</h3>
+            <p>Describe a systems, networking, or embedded project and what you learned.</p>
+            <div class="tags small"><span>C++</span><span>Linux</span><span>Networking</span></div>
+            <div class="card-links">
+              <a href="https://github.com/yourusername/project-three" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card project reveal" data-category="ai">
+            <h3>Project Four</h3>
+            <p>Another machine learning or data science project with a measurable outcome.</p>
+            <div class="tags small"><span>Python</span><span>scikit-learn</span><span>Pandas</span></div>
+            <div class="card-links">
+              <a href="https://github.com/yourusername/project-four" target="_blank" rel="noopener">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <h2 class="section-title reveal">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-group reveal">
+            <h3>Programming</h3>
+            <div class="skill"><span>Python</span><div class="bar"><i data-level="90"></i></div></div>
+            <div class="skill"><span>C / C++</span><div class="bar"><i data-level="80"></i></div></div>
+            <div class="skill"><span>Java</span><div class="bar"><i data-level="75"></i></div></div>
+            <div class="skill"><span>JavaScript</span><div class="bar"><i data-level="75"></i></div></div>
+          </div>
+          <div class="skill-group reveal">
+            <h3>AI & Data</h3>
+            <div class="skill"><span>PyTorch / TensorFlow</span><div class="bar"><i data-level="80"></i></div></div>
+            <div class="skill"><span>scikit-learn</span><div class="bar"><i data-level="85"></i></div></div>
+            <div class="skill"><span>Pandas / NumPy</span><div class="bar"><i data-level="90"></i></div></div>
+            <div class="skill"><span>SQL</span><div class="bar"><i data-level="80"></i></div></div>
+          </div>
+          <div class="skill-group reveal">
+            <h3>Tools & Other</h3>
+            <div class="tags">
+              <span>Git & GitHub</span><span>Linux</span><span>Docker</span><span>LaTeX</span>
+              <span>Jupyter</span><span>VS Code</span><span>Figma</span>
+            </div>
+            <h3 class="mt">Soft Skills</h3>
+            <div class="tags">
+              <span>Teamwork</span><span>Communication</span><span>Leadership</span><span>Time management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section alt" id="experience">
+      <div class="container">
+        <h2 class="section-title reveal">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span class="date">Jun 2023 – Sep 2023</span>
+            <h3>Software Engineering Intern</h3>
+            <p class="muted">Company Name, City</p>
+            <ul>
+              <li>Built [feature] that improved [metric] by X%.</li>
+              <li>Collaborated with a team of N engineers using Agile and Git.</li>
+            </ul>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="date">2022 – 2023</span>
+            <h3>Research Assistant / Teaching Assistant</h3>
+            <p class="muted">Your University, Department of CSE</p>
+            <ul>
+              <li>Assisted in the course <em>Course Name</em>, supporting N students.</li>
+              <li>Helped run experiments for [research topic].</li>
+            </ul>
+          </div>
+          <div class="timeline-item reveal">
+            <span class="date">2021 – Present</span>
+            <h3>Volunteer / Club Member</h3>
+            <p class="muted">Programming Club / Community Organization</p>
+            <ul>
+              <li>Organized workshops and contests for N+ participants.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ACHIEVEMENTS ============ -->
+    <section class="section" id="achievements">
+      <div class="container">
+        <h2 class="section-title reveal">Achievements, Certifications & Languages</h2>
+        <div class="grid three">
+          <div class="card reveal">
+            <h3>🏆 Awards & Honors</h3>
+            <ul class="plain">
+              <li>Dean's List / Merit Scholarship, Year</li>
+              <li>Programming contest ranking, Year</li>
+              <li>Hackathon award, Year</li>
+            </ul>
+          </div>
+          <div class="card reveal">
+            <h3>📜 Certifications</h3>
+            <ul class="plain">
+              <li>Machine Learning Specialization — Coursera</li>
+              <li>Certification Name — Provider, Year</li>
+              <li>Certification Name — Provider, Year</li>
+            </ul>
+          </div>
+          <div class="card reveal">
+            <h3>🌍 Languages</h3>
+            <ul class="plain">
+              <li>Bangla — Native</li>
+              <li>English — Fluent (IELTS: 7.5 overall, Year)</li>
+              <li>Other language — Beginner</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3 class="sub-title reveal">Academic References</h3>
+        <div class="grid">
+          <div class="card reveal">
+            <h3>Prof. / Dr. Referee One</h3>
+            <p class="muted">Professor, Department of CSE, Your University</p>
+            <p><a href="mailto:referee1@university.edu">referee1@university.edu</a></p>
+          </div>
+          <div class="card reveal">
+            <h3>Prof. / Dr. Referee Two</h3>
+            <p class="muted">Associate Professor, Department of CSE, Your University</p>
+            <p><a href="mailto:referee2@university.edu">referee2@university.edu</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section alt" id="contact">
+      <div class="container">
+        <h2 class="section-title reveal">Contact</h2>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p>
+              I'm open to academic collaboration, research discussions and international
+              study opportunities. Feel free to reach out.
+            </p>
+            <ul class="plain">
+              <li>📧 <a href="mailto:you@email.com">you@email.com</a></li>
+              <li>📍 Dhaka, Bangladesh</li>
+              <li>🔗 <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">linkedin.com/in/yourusername</a></li>
+              <li>💻 <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></li>
+            </ul>
+          </div>
+          <form class="contact-form reveal" id="contactForm">
+            <label>Name<input type="text" id="cName" required /></label>
+            <label>Email<input type="email" id="cEmail" required /></label>
+            <label>Message<textarea id="cMessage" rows="5" required></textarea></label>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="form-note" id="formNote"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Your Full Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
